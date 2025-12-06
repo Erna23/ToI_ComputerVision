@@ -27,6 +27,7 @@ Computer Vision Study &amp; Practice with Google Colab, OpenCV, VSCode
 
 ## 📝 Project Overview
 이 프로젝트는 **OpenCV**와 **MediaPipe**를 활용한 실시간 얼굴 인식 스티커 애플리케이션입니다.
+
 단순한 합성을 넘어, **Hand Tracking**을 통해 마우스나 키보드 없이 **손동작만으로 UI를 제어**할 수 있는 인터랙티브한 경험을 제공합니다.
 
 ## ✨ Key Features
@@ -38,8 +39,11 @@ Computer Vision Study &amp; Practice with Google Colab, OpenCV, VSCode
 | **📸 Smart Capture** | 손가락으로 버튼을 누르거나 C 키를 누르면 3초 카운트다운 후 사진이 자동 저장됩니다. |
 
 ## 🛠️ Tech Stack
-- **Language**: Python 3.11+
-- **Computer Vision**: OpenCV (`cv2`), MediaPipe (Face Detection, Hands)
-- **Image Processing**: NumPy, PIL (한글 폰트 지원)
-<table> <tr> <th>기술</th> <th>역할</th> </tr> <tr> <td><strong>MediaPipe Face Detection</strong></td> <td>얼굴 위치 인식 및 스티커 기준 좌표 계산</td> </tr> <tr> <td><strong>MediaPipe Hands</strong></td> <td>검지손가락 위치 추적 및 가상 버튼 클릭 처리</td> </tr> <tr> <td><strong>OpenCV</strong></td> <td>웹캠 캡처, 스티커 합성, 필터 처리, UI 렌더링</td> </tr> <tr> <td><strong>Pillow</strong></td> <td>한글 포함 텍스트 렌더링 (UI 요소)</td> </tr> <tr> <td><strong>NumPy</strong></td> <td>알파 블렌딩 및 이미지 배열 연산</td> </tr> </table>
 
+| 기술 (Tech) | 역할 (Role) |
+|:---:|:---|
+| **🤖 MediaPipe Face** | 얼굴 위치를 실시간으로 인식하고 스티커가 붙을 좌표(중심점)를 계산 |
+| **✋ MediaPipe Hands** | 검지 손가락 끝(`INDEX_FINGER_TIP`)을 추적하여 허공 터치(가상 클릭) 구현 |
+| **📷 OpenCV** | 웹캠 영상 캡처, 스티커 합성, 이미지 필터링 및 전체적인 화면 처리 |
+| **🎨 Pillow (PIL)** | OpenCV에서 지원하지 않는 **한글 텍스트**(UI 메뉴, 안내 메시지)를 깨짐 없이 렌더링 |
+| **🔢 NumPy** | 투명 배경(Alpha Channel)이 있는 스티커 이미지를 자연스럽게 합성하기 위한 배열 연산 |
