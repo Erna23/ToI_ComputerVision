@@ -35,7 +35,7 @@ Computer Vision Study &amp; Practice with Google Colab, OpenCV, VSCode
 | **🐭 12 Zodiac Stickers** | 쥐, 소, 호랑이 등 12가지 동물 스티커가 얼굴 각도에 맞춰 자연스럽게 합성됩니다. |
 | **👆 Touch UI** | 화면 좌측 메뉴와 하단 촬영 버튼을 **손가락 검지**로 터치하여 제어합니다. |
 | **🎨 Live Filters** | 빈티지, 화사함, 흑백 등 7가지 다양한 색감 필터를 실시간으로 적용합니다. |
-| **📸 Smart Capture** | 손가락으로 버튼을 누르거나 c키를 누르면 3초 카운트다운 후 사진이 자동 저장됩니다. |
+| **📸 Smart Capture** | 손가락으로 버튼을 누르거나 C 키를 누르면 3초 카운트다운 후 사진이 자동 저장됩니다. |
 
 ## 🛠️ Tech Stack
 - **Language**: Python 3.11+
