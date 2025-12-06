@@ -41,4 +41,5 @@ Computer Vision Study &amp; Practice with Google Colab, OpenCV, VSCode
 - **Language**: Python 3.11+
 - **Computer Vision**: OpenCV (`cv2`), MediaPipe (Face Detection, Hands)
 - **Image Processing**: NumPy, PIL (한글 폰트 지원)
+<p align="center"> <img src="https://img.shields.io/badge/MediaPipe-Face%20Detection-orange?logo=google" /> <img src="https://img.shields.io/badge/MediaPipe-Hands-orange?logo=google" /> <img src="https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv" /> <img src="https://img.shields.io/badge/Pillow-PIL-blue" /> <img src="https://img.shields.io/badge/NumPy-Array%20Ops-lightgrey?logo=numpy" /> </p> <table> <tr> <th>기술</th> <th>역할</th> </tr> <tr> <td><strong>MediaPipe Face Detection</strong></td> <td>얼굴 위치 인식 및 스티커 기준 좌표 계산</td> </tr> <tr> <td><strong>MediaPipe Hands</strong></td> <td>검지손가락 위치 추적 및 가상 버튼 클릭 처리</td> </tr> <tr> <td><strong>OpenCV</strong></td> <td>웹캠 캡처, 스티커 합성, 필터 처리, UI 렌더링</td> </tr> <tr> <td><strong>Pillow</strong></td> <td>한글 포함 텍스트 렌더링 (UI 요소)</td> </tr> <tr> <td><strong>NumPy</strong></td> <td>알파 블렌딩 및 이미지 배열 연산</td> </tr> </table>
 
