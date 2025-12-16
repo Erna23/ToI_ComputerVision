@@ -53,6 +53,6 @@ Computer Vision Study &amp; Practice with Google Colab, OpenCV, VSCode
 | **🤖 MediaPipe Face** | 얼굴 위치를 실시간으로 인식하고 스티커가 붙을 좌표(중심점)를 계산 |
 | **✋ MediaPipe Hands** | 검지 손가락 끝(`INDEX_FINGER_TIP`)을 추적하여 허공 터치(가상 클릭) 구현 |
 | **📷 OpenCV** | 웹캠 영상 캡처, 스티커 합성, 이미지 필터링 및 전체적인 화면 처리 |
-| **🎨 Pillow (PIL)** | OpenCV에서 지원하지 않는 **한글 텍스트**(UI 메뉴, 안내 메시지)를 깨짐 없이 렌더링 |
+| **🎨 Pillow (PIL)** | OpenCV에서 지원하지 않는 **텍스트**(UI 메뉴, 안내 메시지)를 깨짐 없이 렌더링 |
 | **🔢 NumPy** | 투명 배경(Alpha Channel)이 있는 스티커 이미지를 자연스럽게 합성하기 위한 배열 연산 |
 
