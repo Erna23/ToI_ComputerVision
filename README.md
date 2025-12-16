@@ -30,6 +30,14 @@ Computer Vision Study &amp; Practice with Google Colab, OpenCV, VSCode
 
 단순한 합성을 넘어, **Hand Tracking**을 통해 마우스나 키보드 없이 **손동작만으로 UI를 제어**할 수 있는 인터랙티브한 경험을 제공합니다.
 
+## 📱 시연 이미지
+
+<p align="center">
+  <img width="466" alt="image" src="https://github.com/user-attachments/assets/9a39e1f1-389e-4885-9a2a-2ee19cae6ebb">
+  <br>
+  <em>실제 앱 구동 화면입니다.</em>
+</p>
+
 ## ✨ Key Features
 | 기능 (Function) | 설명 (Description) |
 |:---:|:---|
@@ -47,3 +55,4 @@ Computer Vision Study &amp; Practice with Google Colab, OpenCV, VSCode
 | **📷 OpenCV** | 웹캠 영상 캡처, 스티커 합성, 이미지 필터링 및 전체적인 화면 처리 |
 | **🎨 Pillow (PIL)** | OpenCV에서 지원하지 않는 **한글 텍스트**(UI 메뉴, 안내 메시지)를 깨짐 없이 렌더링 |
 | **🔢 NumPy** | 투명 배경(Alpha Channel)이 있는 스티커 이미지를 자연스럽게 합성하기 위한 배열 연산 |
+
